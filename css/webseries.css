@@ -1,0 +1,142 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+body{
+  background-color: black;
+  color: white;
+}
+#popcorn{
+    margin-left: 50px;
+    margin-top:0px;
+    height: 150px;
+   
+      
+}
+h1{
+    color: rgb(221, 123, 123);
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+    overflow:hidden;
+    float:right;
+    margin-top:50px;
+    padding-right: 70%;
+    
+  }
+  .topnav {
+    overflow:hidden;
+    background-color:black;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    color: #fdfcfc;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  footer{
+    background-color:grey;
+    height: 140px;
+    
+  }
+  footer p{
+    text-align: center;
+    
+     font-family: 'Archivo Narrow', sans-serif;
+     font-family: 'Jockey One', sans-serif;
+     font-family: 'Kumbh Sans', sans-serif;
+     font-size:45px;
+  }
+  .column {
+    padding-left:50px;
+    float:left;
+    width: 33.33%;
+  }
+  .column p{
+      margin-right:30px;
+  }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  footer{
+    background-color:grey;
+    height: 100px;
+  }
+  footer p{
+    text-align: center;
+     padding-top: 30px;
+     font-family: 'Archivo Narrow', sans-serif;
+     font-family: 'Jockey One', sans-serif;
+     font-family: 'Kumbh Sans', sans-serif;
+     font-size:45px;
+  }
+  @media (max-width: 768px) {
+    .column{
+      height:70%;
+      width:70%;
+      margin-bottom:40px;
+    } 
+   
+  h1{
+      color: rgb(221, 123, 123);
+      font-family: 'Dancing Script', cursive;
+      font-size:38px;
+      overflow:hidden;
+      padding-right:24px;
+    margin-top:7px;
+      
+      
+      
+      
+    }
+    #popcorn{
+      margin-left: 18px;
+      margin-top:0px;
+       height: 80px;
+      width:70px;
+     margin-bottom:15px;
+     
+        
+  }
+  
+  footer{
+    height:50px;
+
+  }
+  
+  footer p{
+  font-size:25px;
+  padding-top:15px;
+  }
+     .topnav{
+    width:100%;
+    font-size:10px;
+   
+  }
+    .topnav a{
+      padding:5px 5px;
+      font-size:16px;
+    }
+    .column{
+      padding-right:20px;
+  }
+   
